@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 3000;
 const startMsg = `Koa server has been started on port ${PORT} ...`;
 
 app.use(async (ctx, next) => {
+   console.log('Test');
    ctx.body = startMsg;
 });
 
