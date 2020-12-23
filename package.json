@@ -1,0 +1,27 @@
+{
+  "name": "ahj-hw.-7-http.-1-helpdesk-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever -a server.js",
+    "watch": "forever -a -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKSInc/AHJ-hw.-7-HTTP.-1-HelpDesk-Backend.git"
+  },
+  "author": "Maksim <pyshkov.maksim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKSInc/AHJ-hw.-7-HTTP.-1-HelpDesk-Backend/issues"
+  },
+  "homepage": "https://github.com/MKSInc/AHJ-hw.-7-HTTP.-1-HelpDesk-Backend#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.0"
+  }
+}
