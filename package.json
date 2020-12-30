@@ -1,7 +1,7 @@
 {
   "name": "ahj-hw.-7-http.-1-helpdesk-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "prestart": "npm install",
     "start": "forever -a server.js",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/MKSInc/AHJ-hw.-7-HTTP.-1-HelpDesk-Backend#readme",
   "dependencies": {
     "forever": "^3.0.4",
-    "koa": "^2.13.0"
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0"
   }
 }
