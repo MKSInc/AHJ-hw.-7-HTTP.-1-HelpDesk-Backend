@@ -25,7 +25,7 @@ app.use(koaBody({
 
 app.use(async (ctx, next) => {
    // ctx.response.set('Access-Control-Allow-Origin', 'http://localhost:8080');
-   ctx.response.set('Access-Control-Allow-Origin', 'https://mksinc.github.io/AHJ-hw.-7-HTTP.-1-HelpDesk-Frontend/');
+   ctx.response.set('Access-Control-Allow-Origin', 'https://mksinc.github.io');
 
    let method;
    if (ctx.request.method === 'GET') ({ method } = ctx.request.query);
